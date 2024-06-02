@@ -1,3 +1,5 @@
-# 3d-dungeon
+# 3d-dungeon-godot-4
 
-https://imgur.com/5NACz5F
+Fork of https://github.com/uheartbeast/3d-dungeon ported to Godot 4.2
+
+A lot of code related to [Tweens](https://docs.godotengine.org/en/stable/classes/class_tween.html)  has become deprecated, and some changes were required.
