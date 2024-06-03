@@ -2,4 +2,4 @@
 
 Fork of https://github.com/uheartbeast/3d-dungeon ported to Godot 4.2
 
-A lot of code (related to Tweens specifically) has become deprecated, and changes were needed.
+A lot of code (related to Tweens specifically) has become unusable, and changes were needed.
