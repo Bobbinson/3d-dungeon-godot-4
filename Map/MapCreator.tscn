@@ -1,9 +1,9 @@
 [gd_scene load_steps=4 format=3 uid="uid://dnsx3k5x1gag8"]
 
-[ext_resource type="Texture2D" uid="uid://dp6nq2twus1qr" path="res://icon.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dp6nq2twus1qr" path="res://icon.png" id="1_sd5uf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pvwit"]
-texture = ExtResource("1")
+texture = ExtResource("1_sd5uf")
 0:0/next_alternative_id = 8
 0:0/0 = 0
 0:0/1 = 1

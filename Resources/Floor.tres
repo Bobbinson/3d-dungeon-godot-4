@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" uid="uid://d3882u6fpgqmk" path="res://Resources/Floor.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://upeiqogkedm" path="res://Resources/FloorNormals.png" id="2"]
+
+[resource]
+params_diffuse_mode = 1
+params_specular_mode = 4
+albedo_texture = ExtResource( 1 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 2 )

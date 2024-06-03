@@ -1,18 +1,18 @@
 extends Node3D
 
-const Cell = preload("res://Cell.tscn")
+const Cell = preload("res://Cell/Cell.tscn")
 
 @export var Map: PackedScene
+@onready var worldEnvironment: = $WorldEnvironment
 
 var cells = []
+#var x : CameraAttributesPractical = $"./WorldEnvironment".camera_attributes
 
 func _ready():
 	var environment = get_tree().root.world_3d.fallback_environment
 	environment.background_mode = Environment.BG_COLOR
 	environment.background_color = Color.BLACK
 	environment.ambient_light_color = Color("432d6d")
-	#environment.dof_blur_far_enabled = true
-	#environment.dof_blur_near_enabled = true
 	generate_map()
 
 func generate_map():

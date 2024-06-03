@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://upeiqogkedm"
-path.s3tc="res://.godot/imported/FloorNormals.png-8ff3a15b048b49ec8f4f10ad7b707b9c.s3tc.ctex"
+path.s3tc="res://.godot/imported/FloorNormals.png-12f7f74219b15cbb43eaa968758df958.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://FloorNormals.png"
-dest_files=["res://.godot/imported/FloorNormals.png-8ff3a15b048b49ec8f4f10ad7b707b9c.s3tc.ctex"]
+source_file="res://Resources/FloorNormals.png"
+dest_files=["res://.godot/imported/FloorNormals.png-12f7f74219b15cbb43eaa968758df958.s3tc.ctex"]
 
 [params]
 

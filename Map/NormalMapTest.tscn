@@ -1,13 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cs6601vpwtxkr"]
+[gd_scene load_steps=3 format=3 uid="uid://neyurmc08nit"]
 
-[ext_resource type="Material" path="res://Wall.tres" id="1_mujn3"]
+[ext_resource type="Material" path="res://Resources/Wall.tres" id="1_v08no"]
 
 [sub_resource type="BoxMesh" id="4"]
 
 [node name="NormalMapTest" type="Node3D"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-material_overlay = ExtResource("1_mujn3")
+material_overlay = ExtResource("1_v08no")
 mesh = SubResource("4")
 
 [node name="SpotLight3D" type="SpotLight3D" parent="."]

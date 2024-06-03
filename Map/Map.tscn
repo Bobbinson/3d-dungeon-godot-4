@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://c7p25t2sr4jga"]
 
-[ext_resource type="PackedScene" uid="uid://dnsx3k5x1gag8" path="res://MapCreator.tscn" id="1"]
-[ext_resource type="Script" path="res://Map.gd" id="2"]
+[ext_resource type="Script" path="res://Map/Map.gd" id="1_6pla8"]
+[ext_resource type="PackedScene" uid="uid://dnsx3k5x1gag8" path="res://Map/MapCreator.tscn" id="2_6ox0s"]
 
 [node name="Map" type="Node2D"]
-script = ExtResource("2")
+script = ExtResource("1_6pla8")
 
-[node name="MapCreator" parent="." instance=ExtResource("1")]
+[node name="MapCreator" parent="." instance=ExtResource("2_6ox0s")]
 layer_0/tile_data = PackedInt32Array(0, 65536, 1, 1, 65536, 1, 2, 65536, 1, 6, 65536, 1, 7, 65536, 1, 8, 65536, 1, 65536, 65536, 1, 65537, 65536, 1, 65538, 65536, 1, 65539, 65536, 1, 65540, 65536, 1, 65541, 65536, 1, 65542, 65536, 1, 65544, 65536, 1, 131072, 65536, 1, 131073, 65536, 1, 131074, 65536, 1, 131078, 65536, 1, 131079, 65536, 1, 131080, 65536, 1, 196609, 65536, 1, 196615, 65536, 1, 262145, 65536, 1, 262151, 65536, 1)
